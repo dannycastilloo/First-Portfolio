@@ -110,11 +110,13 @@ h1 {
 /* Estudios */
 
 .estudios {
-  padding: 100px;
+  padding: 100px 0;
 }
 
 #tecsup {
-  width: 450px;
+  padding-top: 30px;
+  text-align: center;
+  width: 330px;
 }
 
 /* Experiencia */
