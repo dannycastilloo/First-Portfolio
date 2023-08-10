@@ -36,13 +36,14 @@ h1 {
 
 .seccion-titulo {
   font-size: 2rem;
-  padding: 15px 0;
+  padding-top: 15px;
   font-family: 'Rubik Dirt', cursive;
 }
 
 .seccion-descripcion {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   color: #584e4e;
+  margin-top: 30px;
 }
 
 .seccion-texto {
@@ -66,7 +67,7 @@ h1 {
 
 .hero {
   background-color: #f5f6f7;
-  min-height: 550px;
+  min-height: 600px;
   text-align: center;
 }
 
@@ -86,13 +87,15 @@ h1 {
 }
 
 .presentacion {
-  padding-top: 50px;
+  padding-top: 65px;
 }
 
 #contactme {
   background-color: #1b1b32;
   color: white;
   border-radius: 10px;
+  margin-top: 6px;
+  border-color: #1b1b32;
 }
 
 /* Sobre mi */
@@ -110,6 +113,7 @@ h1 {
 /* Estudios */
 
 .estudios {
+  height: 400px;
   padding: 100px 0;
 }
 
@@ -180,7 +184,7 @@ h1 {
 }
 
 .proyectos-contenedor {
-  padding-top: 60px;
+  padding-top: 20px;
   margin-bottom: 40px;
 }
 
@@ -197,11 +201,12 @@ h1 {
 .overlay p {
   font-size: 25px;
   font-weight: bold;
-  margin-bottom: 0;
+  margin: 20px 0 0 0;
 }
 
 .proyecto {
   position: relative;
+  height: 250px;
 }
 
 .proyecto:hover img {
@@ -210,10 +215,6 @@ h1 {
 
 .proyecto:hover .overlay {
   opacity: 1;
-}
-
-.overlay .iconos-contenedor {
-  display: flex;
 }
 
 .overlay i {
